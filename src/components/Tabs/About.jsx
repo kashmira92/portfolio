@@ -5,7 +5,7 @@ const About = () => {
     <div>
       <h1>About Me</h1>
       <h3 style={{ textAlign: "left" }}>
-        Hey! I'm a data science enthusiast on a journey that began with a degree
+        Hello! I'm a data science enthusiast on a journey that began with a degree
         in computer science and continued with a master's in data science. My
         journey has led me to spend 2 amazing years as a data engineer at
         Accenture, where I got to roll up my sleeves and dive into the

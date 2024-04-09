@@ -2,11 +2,9 @@ import airflowProject from "../assets/projects/airflow.jpg";
 import demandForecasting from "../assets/projects/demand_forecasting.jpg";
 import flightDelay from "../assets/projects/flightDelay.jpg";
 import snowflakeETL from "../assets/projects/Snowflake_ETL.jpg";
-// import personalIncomeTracker from "../assets/projects/personalTrackerIncomeExpense.jpg";
-import personalIncomeTracker from "../assets/IncomeExpenseTracker.jpg";
+import personalIncomeTracker from "../assets/projects/personalTrackerIncomeExpense.jpg";
 
-// import iulogo from "../assets/IU-logo.png";
-import iulogo from "../assets/IndianaUniversity_logo.jpg";
+import iulogo from "../assets/IU-logo.png";
 import cicplogo from "../assets/CICP.png";
 import accenturelogo from "../assets/accenture.png";
 
@@ -162,9 +160,11 @@ const experiences = [
     date: "Jan 2021 - Jul 2022",
     points: [
       "Architected scalable data pipelines workflows in DataStage to automate the ingestion of 10GB+ data from OLTP system into data marts, resulting in a significant reduction in manual processing time.",
+      " Designed ETL pipelines using SCD1/SCD2 and Change Data Capture techniques for efficient data warehousing and analytics.",
       "Achieved performance optimization of 60% on the pipeline by leveraging parallel ingestion of data and reduced query execution time by 40% using partitioning.",
-      "Performed root cause analysis to mitigate discrepancies between the Master Data Repository and system dashboard using SQL, bolstering data accuracy by 25% for a utility services client by working in an agile delivery.",
-      "Engaged in stakeholder meetings to manage business requirements in the Scrum process by using Azure DevOps, collaborated with five cross-functional teams to conduct data analysis for delivering reporting dashboards.",
+      "Performed root cause analysis to mitigate discrepancies between the Master Data Repository and system dashboard using Oracle SQL Developer, bolstering data accuracy by 25% for a utility services client by working in an agile delivery.",
+      // "Engaged in stakeholder meetings to understand business requirements in the Scrum process, collaborated with five cross-functional teams to conduct data analysis for delivering reporting dashboards.",
+      "Leveraged Azure Boards for work item tracking, delivering the completion of 12+ user stories, and ensuring accountability and transparency within the cross-functional teams.",
       // "Streamlined quality control measures through data validations in Python to ensure 99% data completeness",
     ],
   },
@@ -178,9 +178,9 @@ const academia = [
     iconBg: "#fcfcfc",
     date: "Aug 2023 - Present",
     points: [
-      " Curriculum Development: Collaborated with the professor to design a robust Big Data and Cloud Computing curriculum tailored to meet the needs of a 150-student section. Incorporated hands-on labs, projects, and lectures to provide a holistic learning experience. Leveraged expertise in NoSQL, GCP, distributed systems, and data pipelines to ensure students gain practical skills relevant to industry demands.",
-      "Assessment and Feedback: Evaluated student performance through graded discussions, assignments, and projects, offering constructive feedback to enhance learning outcomes. By providing detailed assessments, ensured students understand their strengths and areas for improvement, fostering a culture of continuous learning and growth.",
-      "Student Support: Conducted office hours to address student queries and troubleshoot issues, offering personalized assistance to enhance comprehension and application of course material. By fostering a supportive learning environment, empowered students to overcome challenges and succeed in mastering Big Data and Cloud Computing concepts.",
+      " Curriculum Development: Collaborated with the professor to design a robust Big Data and Cloud Computing curriculum, incorporating hands-on labs, projects, and lectures leveraging expertise in NoSQL, GCP, PySpark, Kafka, distributed systems, and data pipelines to ensure students gain practical skills.",
+      "Assessment and Feedback: Evaluated student performance through graded discussions, assignments, and projects, offering constructive feedback to enhance learning outcomes." 
+      "Student Support: Conducted office hours to address student queries and troubleshoot issues, offering assistance to enhance comprehension and application of course material.",
     ],
   },
   {
@@ -190,9 +190,9 @@ const academia = [
     iconBg: "#9242d8",
     date: "Aug 2023 - Dec 2023",
     points: [
-      " Facilitating Learning: Engage students in comprehensive discussions on model evaluation metrics, NLP, and ML algorithms, assisting them in grasping the intricacies of selecting appropriate metrics and models tailored to their tasks. Encouraging critical thinking and understanding of trade-offs inherent in machine learning decisions.",
-      " Assessment and Feedback: Responsible for grading assignments and projects, offering constructive feedback to students. This ensures students not only complete tasks but also comprehend the underlying concepts, fostering a deeper understanding of applied machine learning principles.",
-      "Skill Enhancement: Through Python and deep learning, empower students with practical skills essential for real-world applications. Encourage experimentation and exploration, nurturing a mindset geared towards continual improvement and innovation in the field of machine learning.",
+      " Facilitating Learning: Engage students in comprehensive discussions on model evaluation metrics, NLP, and ML algorithms, encouraging critical thinking and understanding of trade-offs inherent in machine learning decisions..",
+      " Assessment and Feedback: Responsible for grading assignments and projects, offering constructive feedback to students.",
+      "Skill Enhancement: Encourage experimentation and exploration through Python and deep learning, nurturing a mindset geared towards continual improvement and innovation in the field of machine learning.",
     ],
   },
 ];
@@ -202,20 +202,20 @@ const expertise = [
     name: "Data Engineering",
     icon: dataEngineer,
     description:
-      "As a data engineer, I've made significant impact in optimizing data infrastructure and ensuring seamless data flow using tools like IBM DataStage for ETL architecture, resulting in an 80% reduction in manual workload. Leveraging cloud services such as GCP, AWS, and Azure, I orchestrated Airflow DAGs and automated ETL pipelines using Docker, enabling efficient task monitoring and management at scale. By implementing PySpark for big data processing, I've ensured scalability and performance in handling large volumes of data. Additionally, my expertise in database management across platforms including Microsoft SQL Server, Oracle Database, PostgreSQL, NoSQL databases like MongoDB, and Neo4j Graph Database has led to optimal data storage and retrieval mechanisms. Through strategic partitioning and parallel ingestion techniques, I've optimized data processing performance, reducing query execution time by 40% and boosting accuracy by 70%. My collaborative development approach, utilizing tools like Azure Boards and ServiceNow for tracking work items, has fostered transparency and accountability within cross-functional teams, ensuring successful project outcomes.",
+      "Experienced data engineer skilled in IBM DataStage, AWS, GCP, Airflow, Kafka, SQL, MongoDB, and Neo4j. Proficient in ETL, distributed computing, stream processing, and containerization. Specialized in architecting scalable data pipelines and implementing event-driven architectures. Strong focus on data integrity, performance optimization, and cloud services utilization. Effective communicator and collaborator with a track record of delivering robust data solutions.",
   },
   {
     name: "Data Analyst",
     icon: dataAnalyst,
     description:
-      "As a data analyst, I've leveraged a diverse array of tools to drive impactful insights and decision-making processes. Utilizing Python for data manipulation, statistical analysis, and exploratory data analysis (EDA), I've uncovered actionable insights from large, complex datasets. Employing Tableau and Power BI for interactive dashboard creation, I've effectively communicated analytical findings to stakeholders. Additionally, my proficiency in SQL and data warehousing tools such as Snowflake and BigQuery has facilitated efficient data transformation and modeling for analytics consumption, enabling key insights in areas like VR gaming data and YouTube video analytics. Overall, my expertise in Python, Tableau, SQL and Power BI, BigQuery and Snowflake has enabled me to drive impactful insights and decision-making processes across diverse domains.",
+      "Experienced data analyst proficient in Tableau, Power BI, Snowflake dashboard, and AWS QuickSight. Skilled in data visualization, dashboard creation, and data exploration to derive actionable insights. Strong understanding of data querying languages (SQL) and database management. Specialized in transforming complex data into clear and impactful visualizations to support decision-making processes. Effective communicator with a keen eye for detail and a commitment to delivering actionable insights.",
   },
   {
     name: "Data Scientist",
     icon: dataScientist,
     description:
-      "As a data scientist, I've utilized Python and libraries such as numpy, pandas, scikit-learn, TensorFlow and NLP to develop advanced machine learning models across diverse domains. For instance, I've engineered demand forecasting models in the supply chain, predicting flight delays in transportation using PySpark ML pipelines, and developed predictive models for customer churn in telecom. Additionally, I led a project in hospitality management, predicting room reservations within a hotel booking system. Furthermore, I've worked on object classification using Convolutional Neural Networks (CNN), aiming to correctly identify the category of each image among 100 different types. The main objective of this project was to improve the accuracy of classifying objects based on their respective categories. These projects showcase my ability to deliver impactful insights and solutions tailored to specific business needs, driving operational efficiency, revenue growth, and customer satisfaction. Moreover, my experience as a teaching assistant for an applied machine learning course has further deepened my understanding of machine learning concepts and methodologies.",
-  },
+      "As a data scientist, I've utilized Python and libraries such as numpy, pandas, scikit-learn, TensorFlow, Natural Language Processing(NLP), Convolutional Neutral Network(CNN) and Large Language Models(LLM) to develop advanced machine learning models across diverse domains.  Skilled in data preprocessing, feature engineering, model training, and evaluation. Strong understanding of statistical analysis and predictive modeling. Effective communicator with a track record of delivering impactful insights and solutions tailored to specific business needs, driving operational efficiency, revenue growth, and customer satisfaction.",
+  }
 ];
 const projects = [
   {

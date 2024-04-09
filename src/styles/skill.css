@@ -1,0 +1,89 @@
+.tiltStyle {
+  --tw-bg-opacity: 1;
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 10px;
+  width: 150px;
+  height: 150px;
+}
+
+.tiltImageDiv {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.tiltImage {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* Updated to contain */
+  border-radius: 10px;
+}
+
+.tiltNameH3 {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.tiltParent {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(150px, 1fr));
+  gap: 20px;
+}
+
+.expertise-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  height: 90%;
+}
+
+.expertise-icon {
+  width: 100%;
+  height: auto; /* Updated to auto */
+  max-width: 100px;
+  max-height: 100px;
+  object-fit: contain;
+}
+
+.expertise-title {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.expertise-description {
+  color: #ccc;
+  font-size: 1rem;
+  text-align: center;
+  flex-grow: 1; /* Added to make the description take up remaining space */
+}
+
+.expertise-parent {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+@media (max-width: 768px) {
+  .expertise-parent {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .tiltParent {
+    grid-template-columns: repeat(2, minmax(150px, 1fr));
+  }
+}

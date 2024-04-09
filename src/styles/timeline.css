@@ -1,0 +1,69 @@
+.vertical-timeline-element {
+  margin: 20px 0;
+}
+
+.altTimelineComponent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.imgComponent {
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+}
+
+.h3text {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.pText {
+  color: #ccc;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.listDisc {
+  margin-top: 10px;
+  padding-left: 30px;
+}
+
+.listItem {
+  color: #f3f3f3;
+  font-size: 14px;
+  padding-left: 10px;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+  .vertical-timeline-element {
+    width: 100%;
+  }
+
+  .altTimelineComponent {
+    width: 100px;
+    height: 100px;
+  }
+
+  .h3text {
+    font-size: 18px;
+  }
+
+  .pText {
+    font-size: 14px;
+  }
+
+  .listItem {
+    font-size: 12px;
+  }
+}

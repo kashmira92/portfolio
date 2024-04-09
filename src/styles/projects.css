@@ -1,0 +1,87 @@
+.projectImageDiv {
+  position: relative;
+  width: 100%;
+  height: 230px;
+}
+.projectImage {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 1rem /* 16px */;
+}
+.projectGitIconDiv {
+  position: absolute;
+  inset: 0px;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0.75rem;
+}
+.projectGitClickable {
+  width: 50px;
+  height: 50px;
+  border-radius: 9999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.projectGitIconImg {
+  width: 75%;
+  height: 75%;
+  object-fit: contain;
+  background-color: black;
+  border-radius: 50%;
+}
+/* .projectParent {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+} */
+.projectNameH3 {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.projectTags {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.projectDescription {
+  margin-top: 0.5rem /* 8px */;
+  --tw-text-opacity: 1;
+  color: rgb(170 166 195 / var(--tw-text-opacity));
+  font-size: 14px;
+}
+.projectParent {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
+  gap: 1.75rem; /* Gap between grid items */
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 1200px) {
+  .projectParent {
+    grid-template-columns: repeat(
+      2,
+      1fr
+    ); /* Two columns for screens less than 1200px */
+  }
+}
+
+@media (max-width: 768px) {
+  .projectParent {
+    grid-template-columns: 1fr; /* One column for screens less than 768px */
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:w-\[360px\] {
+    width: 360px;
+  }
+}

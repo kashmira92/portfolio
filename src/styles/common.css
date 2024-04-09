@@ -1,0 +1,37 @@
+.socialButton {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.individualButton {
+  margin: 10px; /* Increase margin for spacing */
+  max-height: 350px; /* Adjust the height as needed */
+  max-width: 350px; /* Adjust the width as needed */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.individualButton .MuiIconButton-root {
+  margin-bottom: 10px; /* Add margin between icon and text */
+}
+
+.individualButton .MuiTypography-root {
+  text-align: center;
+}
+.button:focus-visible {
+  outline-style: none;
+  outline: 0;
+}
+.individualButton .MuiIconButton-root .css-i4bv87-MuiSvgIcon-root {
+  font-size: 2rem;
+}
+
+.individualButton .MuiIconButton-root .css-e784if-MuiTypography-root {
+  font-size: 1rem;
+}

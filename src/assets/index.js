@@ -2,9 +2,11 @@ import airflowProject from "../assets/projects/airflow.jpg";
 import demandForecasting from "../assets/projects/demand_forecasting.jpg";
 import flightDelay from "../assets/projects/flightDelay.jpg";
 import snowflakeETL from "../assets/projects/Snowflake_ETL.jpg";
-import personalIncomeTracker from "../assets/projects/personalTrackerIncomeExpense.jpg";
+// import personalIncomeTracker from "../assets/projects/personalTrackerIncomeExpense.jpg";
+import personalIncomeTracker from "../assets/IncomeExpenseTracker.jpg";
 
-import iulogo from "../assets/IU-logo.png";
+// import iulogo from "../assets/IU-logo.png";
+import iulogo from "../assets/IndianaUniversity_logo.jpg";
 import cicplogo from "../assets/CICP.png";
 import accenturelogo from "../assets/accenture.png";
 

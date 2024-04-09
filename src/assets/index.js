@@ -179,7 +179,7 @@ const academia = [
     date: "Aug 2023 - Present",
     points: [
       " Curriculum Development: Collaborated with the professor to design a robust Big Data and Cloud Computing curriculum, incorporating hands-on labs, projects, and lectures leveraging expertise in NoSQL, GCP, PySpark, Kafka, distributed systems, and data pipelines to ensure students gain practical skills.",
-      "Assessment and Feedback: Evaluated student performance through graded discussions, assignments, and projects, offering constructive feedback to enhance learning outcomes." 
+      "Assessment and Feedback: Evaluated student performance through graded discussions, assignments, and projects, offering constructive feedback to enhance learning outcomes.",
       "Student Support: Conducted office hours to address student queries and troubleshoot issues, offering assistance to enhance comprehension and application of course material.",
     ],
   },
@@ -190,7 +190,7 @@ const academia = [
     iconBg: "#9242d8",
     date: "Aug 2023 - Dec 2023",
     points: [
-      " Facilitating Learning: Engage students in comprehensive discussions on model evaluation metrics, NLP, and ML algorithms, encouraging critical thinking and understanding of trade-offs inherent in machine learning decisions..",
+      "Facilitating Learning: Engage students in comprehensive discussions on model evaluation metrics, NLP, and ML algorithms, encouraging critical thinking and understanding of trade-offs inherent in machine learning decisions.",
       " Assessment and Feedback: Responsible for grading assignments and projects, offering constructive feedback to students.",
       "Skill Enhancement: Encourage experimentation and exploration through Python and deep learning, nurturing a mindset geared towards continual improvement and innovation in the field of machine learning.",
     ],
@@ -214,7 +214,7 @@ const expertise = [
     name: "Data Scientist",
     icon: dataScientist,
     description:
-      "As a data scientist, I've utilized Python and libraries such as numpy, pandas, scikit-learn, TensorFlow, Natural Language Processing(NLP), Convolutional Neutral Network(CNN) and Large Language Models(LLM) to develop advanced machine learning models across diverse domains.  Skilled in data preprocessing, feature engineering, model training, and evaluation. Strong understanding of statistical analysis and predictive modeling. Effective communicator with a track record of delivering impactful insights and solutions tailored to specific business needs, driving operational efficiency, revenue growth, and customer satisfaction.",
+      "As a data scientist, I've utilized Python and libraries such as numpy, pandas, scikit-learn, TensorFlow, Natural Language Processing(NLP), Convolutional Neutral Network(CNN) and Large Language Models(LLM) to develop advanced machine learning models across diverse domains.  Skilled in data preprocessing, feature engineering, model training, and evaluation. Strong understanding of statistical analysis and predictive modeling. Effective communicator with a track record of delivering impactful insights and solutions tailored to specific business needs, driving operational efficiency, revenue growth, and customer satisfaction."
   }
 ];
 const projects = [

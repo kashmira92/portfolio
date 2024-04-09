@@ -165,7 +165,7 @@ const experiences = [
       "Achieved performance optimization of 60% on the pipeline by leveraging parallel ingestion of data and reduced query execution time by 40% using partitioning.",
       "Performed root cause analysis to mitigate discrepancies between the Master Data Repository and system dashboard using SQL, bolstering data accuracy by 25% for a utility services client by working in an agile delivery.",
       "Engaged in stakeholder meetings to manage business requirements in the Scrum process by using Azure DevOps, collaborated with five cross-functional teams to conduct data analysis for delivering reporting dashboards.",
-      "Streamlined quality control measures through data validations in Python to ensure 99% data completeness",
+      // "Streamlined quality control measures through data validations in Python to ensure 99% data completeness",
     ],
   },
 ];

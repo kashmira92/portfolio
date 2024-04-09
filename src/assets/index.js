@@ -7,7 +7,7 @@ import personalIncomeTracker from "../assets/IncomeExpenseTracker.jpg";
 
 
 // import iulogo from "../assets/IU-logo.png";
-import iulogo from "../assets/IndianaUniversity_logo.jpg;
+import iulogo from "../assets/IndianaUniversity_logo.jpg";
 import cicplogo from "../assets/CICP.png";
 import accenturelogo from "../assets/accenture.png";
 

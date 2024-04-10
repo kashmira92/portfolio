@@ -1,14 +1,11 @@
 import React from "react";
 import { IconButton, Tooltip, Typography } from "@mui/material";
-import { LinkedIn, Mail, GitHub } from "@mui/icons-material";
+import { LinkedIn, Mail, GitHub, CloudDownload } from "@mui/icons-material";
 import "../styles/common.css";
-
+import resume from "../assets/KashmiraGolatkarPortfolioResume.pdf";
 const SocialButtons = () => {
   return (
     <>
-      <h1>
-        Socials<br></br>
-      </h1>
       <div className="socialButton">
         <div className="individualButton">
           <Tooltip title="Gmail">
@@ -42,7 +39,6 @@ const SocialButtons = () => {
             </IconButton>
           </Tooltip>
         </div>
-
         <div className="individualButton">
           <Tooltip title="GitHub">
             <IconButton
@@ -56,6 +52,22 @@ const SocialButtons = () => {
             >
               <GitHub />
               <Typography variant="body2">GitHub</Typography>
+            </IconButton>
+          </Tooltip>
+        </div>
+        <div className="individualButton">
+          <Tooltip title="Resume">
+            <IconButton
+              style={{ fontSize: "2.5rem" }} // Adjust the size as needed
+              color="primary"
+              aria-label="Resume"
+              component="a"
+              href={resume}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <CloudDownload />
+              <Typography variant="body2">Resume</Typography>
             </IconButton>
           </Tooltip>
         </div>

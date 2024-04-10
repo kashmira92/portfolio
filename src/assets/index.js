@@ -5,7 +5,6 @@ import snowflakeETL from "../assets/projects/Snowflake_ETL.jpg";
 // import personalIncomeTracker from "../assets/projects/personalTrackerIncomeExpense.jpg";
 import personalIncomeTracker from "../assets/IncomeExpenseTracker.jpg";
 
-
 // import iulogo from "../assets/IU-logo.png";
 import iulogo from "../assets/IndianaUniversity_logo.jpg";
 import cicplogo from "../assets/CICP.png";
@@ -217,8 +216,8 @@ const expertise = [
     name: "Data Scientist",
     icon: dataScientist,
     description:
-      "As a data scientist, I've utilized Python and libraries such as numpy, pandas, scikit-learn, TensorFlow, Natural Language Processing(NLP), Convolutional Neutral Network(CNN) and Large Language Models(LLM) to develop advanced machine learning models across diverse domains.  Skilled in data preprocessing, feature engineering, model training, and evaluation. Strong understanding of statistical analysis and predictive modeling. Effective communicator with a record of delivering impactful insights and solutions tailored to specific business needs, revenue growth, and customer satisfaction."
-  }
+      "As a data scientist, I've utilized Python and libraries such as numpy, pandas, scikit-learn, TensorFlow, Natural Language Processing(NLP), Convolutional Neutral Network(CNN) and Large Language Models(LLM) to develop advanced machine learning models across diverse domains.  Skilled in data preprocessing, feature engineering, model training, and evaluation. Strong understanding of statistical analysis and predictive modeling. Effective communicator with a record of delivering impactful insights and solutions tailored to specific business needs, revenue growth, and customer satisfaction.",
+  },
 ];
 const projects = [
   {

@@ -6,6 +6,7 @@ import resume from "../assets/KashmiraGolatkarPortfolioResume.pdf";
 const SocialButtons = () => {
   return (
     <>
+      <h1>My Socials</h1>
       <div className="socialButton">
         <div className="individualButton">
           <Tooltip title="Gmail">

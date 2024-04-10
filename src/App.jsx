@@ -20,7 +20,6 @@ function App() {
           Hi!! I'm Kashmira, <br></br>
           Welcome to my portfolio
         </h1>
-        <SocialButtons />
       </div>
       <Tabs
         value={tabValue}
@@ -36,6 +35,7 @@ function App() {
         <Tab label="Skills & Expertise" />
       </Tabs>
       <CustomTab value={tabValue}></CustomTab>
+      <SocialButtons />
     </>
   );
 }

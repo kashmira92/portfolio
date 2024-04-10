@@ -54,7 +54,7 @@
 .projectDescription {
   margin-top: 0.5rem /* 8px */;
   --tw-text-opacity: 1;
-  color: rgb(170 166 195 / var(--tw-text-opacity));
+  color: #e2dada;
   font-size: 14px;
 }
 .projectParent {

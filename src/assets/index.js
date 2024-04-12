@@ -133,29 +133,30 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Data Analyst",
+    title: "Healthcare Data Analyst | Life Sciences and Clinical trials",
     company_name: "Central Indiana Corporate Partnership",
     icon: cicplogo,
     iconBg: "#ffffff",
     date: "Aug 2023 - Dec 2023",
     points: [
-      " Integrated and evaluated large complex datasets from disparate data sources, to perform data analysis on Indiana state’s clinical trials utilizing Python, Tableau and Plotly.",
-      "Conducted data mapping and feature engineering, uncovering a notable gap in urban-rural participation and its corresponding funder types within the healthcare sector. Conveyed complex analytical findings to key stakeholders, contributing to the enhancement of regional distribution strategies, as recommended to the commissioner.",
+      "Led integration of large, complex life sciences data of 20M+ records from diverse sources, to identify clinical trials gaps in Indiana.",
+      "Developed a structured clinical genomics dataset by utilizing Python for data mapping and feature engineering, revealing specific sponsor trends and identifying a 20% gap in urban-rural clinical trial participation.",
+    "Conveyed analytical findings to the stakeholders through interactive Tableau dashboard, advocating enhanced regional strategies.",
     ],
   },
   {
-    title: "Research Assistant",
+    title: "Research Assistant | Finance and Social Sector",
     company_name: "Indiana University Bloomington",
     icon: iulogo,
     iconBg: "#9242d8",
     date: "Aug 2023 - Dec 2023",
     points: [
-      " Leveraged Python and Cypher query language to conduct EDA on 5M IRS tax records (Forms 990/990PF),generating Neo4j network graphs for grantees and foundations, revealing intricate funding networks in philanthropy.",
-      " Built community detection and recommender models that can identify optimal funding opportunities for 40k+ foundations and high probability grant-seeking opportunities for 150k+ grantees.",
+      "Directed quantitative analysis on 5M+ IRS tax records, generating features for network graphs for uncovering complex relationships in the philanthropy sector from XML files using Python, NLP, Neo4j Graph Database and Cypher Query Language.",
+      "Built recommendation models accelerating optimal funding opportunity identification by 25% for 180K+ grantees and foundations.",
     ],
   },
   {
-    title: "Data Engineer Associate",
+    title: "Data Engineer Associate | Energy Utilities - Customer Meter Integrations",
     company_name: "Accenture",
     icon: accenturelogo,
     iconBg: "#fcfcfc",
@@ -180,7 +181,7 @@ const academia = [
     iconBg: "#fcfcfc",
     date: "Aug 2023 - Present",
     points: [
-      " Curriculum Development: Collaborated with the professor to design a robust Big Data and Cloud Computing curriculum, incorporating hands-on labs, projects, and lectures leveraging expertise in NoSQL, GCP, PySpark, Kafka, distributed systems, and data pipelines to ensure students gain practical skills.",
+      "Curriculum Development: Collaborated with the professor to design a robust Big Data and Cloud Computing curriculum, incorporating hands-on labs, projects, and lectures leveraging expertise in NoSQL, GCP, PySpark, Kafka, distributed systems, and data pipelines to ensure students gain practical skills.",
       "Assessment and Feedback: Evaluated student performance through graded discussions, assignments, and projects, offering constructive feedback to enhance learning outcomes.",
       "Student Support: Conducted office hours to address student queries and troubleshoot issues, offering assistance to enhance comprehension and application of course material.",
     ],
@@ -193,7 +194,7 @@ const academia = [
     date: "Aug 2023 - Dec 2023",
     points: [
       "Facilitating Learning: Engage students in comprehensive discussions on model evaluation metrics, NLP, and ML algorithms, encouraging critical thinking and understanding of trade-offs inherent in machine learning decisions.",
-      " Assessment and Feedback: Responsible for grading assignments and projects, offering constructive feedback to students.",
+      "Assessment and Feedback: Responsible for grading assignments and projects, offering constructive feedback to students.",
       "Skill Enhancement: Encourage experimentation and exploration through Python and deep learning, nurturing a mindset geared towards continual improvement and innovation in the field of machine learning.",
     ],
   },

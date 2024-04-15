@@ -26,7 +26,7 @@ import ibm from "../assets/tech/IBM.png";
 import git from "../assets/tech/git.png";
 import snowflake from "../assets/tech/snowflake.png";
 import docker from "../assets/tech/docker.png";
-import neo4j from "../assets/tech/neo4j.png";
+import neo4j from "../assets/tech/Neo4j_logo.png";
 import tableau from "../assets/tech/tableau.png";
 import powerbi from "../assets/tech/power-bi.png";
 

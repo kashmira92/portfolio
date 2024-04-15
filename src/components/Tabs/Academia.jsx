@@ -11,9 +11,9 @@ const AcademiaCard = ({ academia }) => {
     <VerticalTimelineElement
       contentStyle={{
         background: "#3f79b3",
-        color: "#fff",
+        color: "rgb(63, 121, 179)",
       }}
-      contentArrowStyle={{ borderRight: "7px solid  #232631" }}
+      contentArrowStyle={{ borderRight: "7px solid  #3f79b3" }}
       date={academia.date}
       iconStyle={{ background: "#fffff" }}
       icon={

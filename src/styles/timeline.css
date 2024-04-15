@@ -1,7 +1,9 @@
 .vertical-timeline-element {
   margin: 20px 0;
 }
-
+.vertical-timeline.vertical-timeline-custom-line {
+  background: #3e79b3;
+}
 .altTimelineComponent {
   display: flex;
   justify-content: center;

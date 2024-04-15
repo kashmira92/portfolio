@@ -22,7 +22,6 @@
 
 .tiltNameH3 {
   --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
   text-align: center;
   font-size: 16px;
   font-weight: 700;
@@ -59,7 +58,6 @@
 }
 
 .expertise-title {
-  color: #fff;
   font-size: 1.5rem;
   font-weight: bold;
   margin-top: 1rem;
@@ -67,7 +65,6 @@
 }
 
 .expertise-description {
-  color: #ccc;
   font-size: 1rem;
   text-align: center;
   flex-grow: 1; /* Added to make the description take up remaining space */

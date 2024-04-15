@@ -40,7 +40,6 @@
 } */
 .projectNameH3 {
   --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 10px;
@@ -54,7 +53,6 @@
 .projectDescription {
   margin-top: 0.5rem /* 8px */;
   --tw-text-opacity: 1;
-  color: #e2dada;
   font-size: 14px;
 }
 .projectParent {
